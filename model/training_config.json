@@ -1,0 +1,18 @@
+{
+"load_model_name": null,
+"save_model_name": "model1",
+"window_size": 2,
+"num_full_layers": 3,
+"source_merge_operations_file_name": "7000_operations_['multi30k.en.gz', 'multi30k.de.gz']",
+"target_merge_operations_file_name": "7000_operations_['multi30k.en.gz', 'multi30k.de.gz']",
+"train_source_file_name": "multi30k.de.gz",
+"train_target_file_name": "multi30k.en.gz",
+"dev_source_file_name": "multi30k.dev.de",
+"dev_target_file_name": "multi30k.dev.en",
+"batch_size": 300,
+"num_epochs": 2,
+"checkpoints": [1,500],
+"learning_rate": 0.005,
+"half_learning_rate": true,
+"verbose": false
+}

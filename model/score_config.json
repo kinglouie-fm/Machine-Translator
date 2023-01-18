@@ -1,0 +1,11 @@
+{
+"load_model_name": "model",
+"epoch": 10,
+"window_size": 2,
+"num_full_layers": 3,
+"source_merge_operations_file_name": "7000_operations_['multi30k.en.gz', 'multi30k.de.gz']",
+"target_merge_operations_file_name": "7000_operations_['multi30k.en.gz', 'multi30k.de.gz']",
+"source_vocab_file_name": "multi30k.de.gz.vocab",
+"target_vocab_file_name": "multi30k.en.gz.vocab",
+"learning_rate": 0.005
+}
